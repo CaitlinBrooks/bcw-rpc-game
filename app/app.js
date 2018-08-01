@@ -20,4 +20,16 @@ function play(playersChoice) {
             return "Computer wins"
         }
     } else
+        if (playersChoice === 'scissors') {
+            return "Computer wins"
+        }
+    if (computerChoice === 'rock') {
+        return "Computer wins"
+    }
+    if (computerChoice === 'paper') {
+        return "User wins"
+    }
+    if (computerChoice === 'scissors') {
+        return "Tie game"
+    }
 }
